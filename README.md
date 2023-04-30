@@ -63,7 +63,7 @@ To instruction a foundation model, follow these steps:
 
 ## **Usage**
 
-We offer several choices for experiencing our PandaLM.
+We offer several choices for experiencing our PandaLM. (Uploading...Please be patient.)
 
 1. Try PandaLM on your local machine (with a GPU having at least 24G VRAM) using a Web UI: {}
 2. Run PandaLM on batch data in a command-line script: {}
@@ -138,18 +138,15 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 | ChatGPT | ❌           | ❌               | ❌        | Limited   |
 | PandaLM | ✅           | ✅               | ✅        | Unlimited |
 
-|             | Test set Acc. |
-| ----------- | ------------- |
-| ChatGPT     | 71.07         |
-| PandaLM-7B  | 63.36         |
-| PandaLM-13B | ongoing       |
-| PandaLM-33B | ongoing       |
-| PandaLM-65B | ongoing       |
-
+|               | Accuracy | Precision | Recall    | F1-score  |
+|---------------|----------|-----------|-----------|-----------|
+| gpt-3.5-turbo | 71.07    | 58.79     | 57.36     | 57.55     |
+| PandaLM-7B    | 66.77    | 57.38     | 57.50     | 57.43     |
+| PandaLM-13B   | -        | -         | -         | -         |
 
 ## **Instruction tuned foundation model comparisons**
 
-We also provide some comparisons among the instruction tuned language models. The tuple in the table means (#win,#lose,#tie). Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B.
+We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a direct edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
 
 | Human-annotated   | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
 |-------------------|----------|----------------|-------------------|----------------|----------------|
