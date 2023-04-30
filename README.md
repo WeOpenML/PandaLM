@@ -63,7 +63,7 @@ To instruction a foundation model, follow these steps:
 
 ## **Usage**
 
-We offer several choices for experiencing our PandaLM. (Uploading...Please be patient.)
+We offer several choices for experiencing our PandaLM. (Uploading model weights...Please be patient.)
 
 1. Try PandaLM on your local machine (with a GPU having at least 24G VRAM) using a Web UI: {}
 2. Run PandaLM on batch data in a command-line script: {}
