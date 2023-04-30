@@ -171,7 +171,7 @@ We also provide some comparisons among the instruction tuned language models. **
 
 <div align="center">
   <a href=" ">
-    <img src="figures/partial-order.png" alt="Partial Order Graph" width="400">
+    <img src="figures/partial-order.png" alt="Partial Order Graph" width="300">
   </a>
 </div>
 
