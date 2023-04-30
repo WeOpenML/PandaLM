@@ -88,8 +88,10 @@ To instruction a foundation model, follow these steps:
 4. Run the demo scripts: `bash scripts/inst-tune.sh`
 
 ## **Usage**
-How to download PandaLM-7B from huggingface using Python?
-```
+
+We have uploaded PandaLM-7B to HuggingFace, you can simply initialize the model and tokenizer with:
+
+```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 tokenizer = AutoTokenizer.from_pretrained("WeOpenML/PandaLM-7B-v1",use_fast=False)
