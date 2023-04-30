@@ -79,13 +79,12 @@ To install PandaLM, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/WeOpenML/PandaLM.git`
 2. Navigate to the project directory: `cd PandaLM`
-3. Install the required dependencies: `pip install -r requirements.txt`
+3. Install the required dependencies: `pip install -r requirements.txt` or use `conda env create -f conda-env.yml` if you prefer conda. Note that it's required to modify `prefix` in `conda-env.yml` to your conda path.
 
 To instruction a foundation model, follow these steps:
-1. Clone the repository: `git clone https://github.com/WeOpenML/PandaLM.git`
+1. Install PandaLM.
 2. Navigate to the project directory: `cd PandaLM/pandalm`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the demo scripts: `bash scripts/inst-tune.sh`
+3. Run the demo scripts: `bash scripts/inst-tune.sh`
 
 ## **Usage**
 
