@@ -164,7 +164,7 @@ Yidong Wang<sup>\*1,2</sup>, Zhuohao Yu<sup>\*1</sup>, Zhengran Zeng<sup>1</sup>
 ```Plain
 @misc{PandaLM,
   author = {Wang Yidong and Yu Zhuohao and Zeng Zhengran and Yang Linyi and Heng Qiang and Wang Cunxiang and Chen Hao and Jiang Chaoya and Xie Rui and Wang Jindong and Xie Xing and Ye Wei and Zhang Shikun and Zhang Yue},
-  title = {PandaLM:Boosting LLMs' instruction tuning loop.},
+  title = {PandaLM: Reproducible and Automated Language Model Assessment},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
