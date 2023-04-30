@@ -129,7 +129,7 @@ The label distribution of test data is:
 | ------------ | ------------ | ------------ | ------------ |
 | Number       | 105          | 422          | 472          |
 
-## ChatGPT VS PandaLM
+## **ChatGPT VS PandaLM**
 
 We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM in terms of accuracy on our human-labeled dataset, Ownership, Reproducibility, security, etc. ChatGPT is opaque and unreproducible as it does not disclose any changelogs. Besides, users may encounter data leakage issues when using ChatGPT and some organizations have regulations against ChatGPT usage.
 
@@ -145,6 +145,32 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 | PandaLM-13B | ongoing       |
 | PandaLM-33B | ongoing       |
 | PandaLM-65B | ongoing       |
+
+
+## **Instruction tuned foundation model comparisons**
+
+We also provide some comparisons among the instruction tuned language models. The tuple in the table means (#win,#lose,#tie). Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B.
+
+| Human-annotated   | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
+|-------------------|----------|----------------|-------------------|----------------|----------------|
+| LLaMA-7B          |          | **(72,28,11)** | **(80,24,6)**     | **(71,24,11)** | **(58,27,9)**  |
+| Bloom-7B          |          |                | **(59,30,11)**    | **(43,35,11)** | **(49,47,11)** |
+| Cerebras-GPT-6.7B |          |                |                   | _(33,49,9)_    | _(27,53,11)_   |
+| OPT-7B            |          |                |                   |                | _(32,53,15)_   |
+
+| gpt-3.5-turbo     | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
+|-------------------|----------|----------------|-------------------|----------------|----------------|
+| LLaMA-7B          |          | **(69,32,10)** | **(80,24,6)**     | **(70,29,7)**  | **(60,28,6)**  |
+| Bloom-7B          |          |                | **(67,29,4)**     | **(46,38,5)**  | **(52,48,7)**  |
+| Cerebras-GPT-6.7B |          |                |                   | _(38,45,8)_    | _(28,57,6)_    |
+| OPT-7B            |          |                |                   |                | _(43,53,4)_    |
+
+| gpt-3.5-turbo     | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
+|-------------------|----------|----------------|-------------------|----------------|----------------|
+| LLaMA-7B          |          | **(57,37,17)** | **(75,26,9)**     | **(60,33,13)** | **(46,41,7)**  |
+| Bloom-7B          |          |                | **(57,31,12)**    | **(46,36,7)**  | **(51,41,15)** |
+| Cerebras-GPT-6.7B |          |                |                   | _(37,45,9)_    | _(33,52,6)_    |
+| OPT-7B            |          |                |                   |                | _(40,48,12)_   |
 
 <div align="center">
   <a href=" ">
