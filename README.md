@@ -165,7 +165,7 @@ We also provide some comparisons among the instruction tuned language models. Th
 | Cerebras-GPT-6.7B |          |                |                   | _(38,45,8)_    | _(28,57,6)_    |
 | OPT-7B            |          |                |                   |                | _(43,53,4)_    |
 
-| gpt-3.5-turbo     | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
+| PandaLM-7B        | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
 |-------------------|----------|----------------|-------------------|----------------|----------------|
 | LLaMA-7B          |          | **(57,37,17)** | **(75,26,9)**     | **(60,33,13)** | **(46,41,7)**  |
 | Bloom-7B          |          |                | **(57,31,12)**    | **(46,36,7)**  | **(51,41,15)** |
