@@ -112,8 +112,8 @@ By default the program will listen to port 31228 on all network interfaces, acce
   </a>
 </div>
 
-2. Run PandaLM on batch data in a command-line script: {}
-3. Train a new PandaLM in a command-line script: {}
+2. Run PandaLM on batch data in a command-line script: {The code and scripts are under review, coming soon.}
+3. Train a new PandaLM in a command-line script: {The code and scripts are under review, coming soon.}
 
 ## **Data**
 
