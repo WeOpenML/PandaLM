@@ -1,10 +1,13 @@
 # PandaLM: Reproducible and Automated Language Model Assessment
 
-
-
-<img src="./figures/logo.png" alt="img" style="zoom:33%;" />
+<div align="center">
+  <a href=" ">
+    <img src="figures/logo.png" alt="Logo" width="400">
+  </a>
+</div>
 
 ## Overview
+This is the official repository for PandaLM: Re**P**roducible **and** **A**utomated **L**anguage **M**odel Assessment.
 
 PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **On our test dataset, PandaLM-7B has achieved xx% ChatGPT's evaluation ability**. **The papers and more features are coming soon.**
 
@@ -132,7 +135,11 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 | PandaLM-33B | ongoing       |
 | PandaLM-65B | ongoing       |
 
-![img](./figures/main-figure.png)
+<div align="center">
+  <a href=" ">
+    <img src="figures/partial-order.png" alt="Partial Order Graph" width="400">
+  </a>
+</div>
 
 ## **Conrtibuting**
 
