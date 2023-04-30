@@ -4,21 +4,31 @@
   <a href=" ">
     <img src="figures/logo.png" alt="Logo" width="400">
   </a>
+  </br>
+  <a>Yidong Wang<sup>*1,2</sup></a>&emsp;
+  <a>Zhuohao Yu<sup>*1</sup></a>&emsp;
+  </br>
+  <a>Zhengran Zeng<sup>1</sup></a>&emsp;
+  <a>Linyi Yang<sup>2</sup></a>&emsp;
+  <a>Qiang Heng<sup>3</sup></a>&emsp;
+  <a>Cunxiang Wang<sup>2</sup></a>&emsp;
+  <a>Hao Chen<sup>4</sup></a>&emsp;
+  <a>Chaoya Jiang<sup>1</sup></a>&emsp;
+  <a>Rui Xie<sup>1</sup></a>&emsp;
+  <a>Jindong Wang<sup>5</sup></a>&emsp;
+  <a>Xing Xie<sup>5</sup></a>&emsp;
+  </br>
+  <a>Wei Ye<sup>†1</sup></a>&emsp;
+  <a>Shikun Zhang<sup>†1</sup></a>&emsp;
+  <a>Yue Zhang<sup>†2</sup></a>&emsp;
+  <div>
+    </br>
+    *: Co-first Authors, work done during Yidong's internship at Westlake University.   †: Co-corresponding Authors
+  </div>
+  <p><sup>1</sup> Peking University, <sup>2</sup> Westlake University, <sup>3</sup> North Carolina State University, <sup>4</sup> Carnegie Mellon University, <sup>5</sup> Microsoft Research Asia</p>
+  
 </div>
 
-## **Authors**
-
-Yidong Wang<sup>\*1,2</sup>, Zhuohao Yu<sup>\*1</sup>, 
-
-Zhengran Zeng<sup>1</sup>, Linyi Yang<sup>2</sup>, Qiang Heng<sup>3</sup>, Cunxiang Wang<sup>2</sup>, Hao Chen<sup>4</sup>, Chaoya Jiang<sup>1</sup>, Rui Xie<sup>1</sup>, Jindong Wang<sup>5</sup>, Xing Xie<sup>5</sup>, 
-
-Wei Ye<sup>†1</sup>, Shikun Zhang<sup>†1</sup>, and Yue Zhang<sup>†2</sup>.
-
-*: Co-first Authors, work done during Yidong's internship at Westlake University.
-
-†: Co-corresponding Authors
-
-<sup>1</sup> Peking University, <sup>2</sup> Westlake University, <sup>3</sup> North Carolina State University, <sup>4</sup> Carnegie Mellon University, <sup>5</sup> Microsoft Research Asia
 
 ## Overview
 This is the official repository for PandaLM: Re**P**roducible **and** **A**utomated **L**anguage **M**odel Assessment.
