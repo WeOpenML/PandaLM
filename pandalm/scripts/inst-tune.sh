@@ -1,6 +1,4 @@
 #export CUDA_VISIBLE_DEVICES=4,5,6,7
-git clone https://github.com/WeOpenML/PandaLM.git
-cd PandaLM/pandalm
 if [ ! -f "./assets/alpaca_data.json" ];then
   echo "alpaca data does not exist"
   wget -P ./assets https://raw.githubusercontent.com/tatsu-lab/stanford_alpaca/main/alpaca_data.json
