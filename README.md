@@ -88,9 +88,17 @@ To instruction a foundation model, follow these steps:
 4. Run the demo scripts: `bash scripts/inst-tune.sh`
 
 ## **Usage**
+How to download PandaLM-7B from huggingface?
+```
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+tokenizer = AutoTokenizer.from_pretrained("WeOpenML/PandaLM-7B-v1",use_fast=False)
+
+model = AutoModelForCausalLM.from_pretrained("WeOpenML/PandaLM-7B-v1")
+```
+
 
 We offer several choices for experiencing our PandaLM. (Uploading model weights...Please be patient.)
-
 1. Try PandaLM on your local machine (with a GPU having at least 24G VRAM) using a Web UI: {}
 2. Run PandaLM on batch data in a command-line script: {}
 3. Train a new PandaLM in a command-line script: {}
