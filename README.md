@@ -52,7 +52,6 @@ This repository contains:
   - [ChatGPT VS PandaLM](#chatgpt-vs-pandalm)
   - [Instruction tuned foundation model comparisons](#instruction-tuned-foundation-model-comparisons)
   - [Conrtibuting](#conrtibuting)
-  - [Authors](#authors)
   - [Citation](#citation)
   - [License](#license) 
 
