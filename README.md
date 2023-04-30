@@ -101,7 +101,18 @@ model = AutoModelForCausalLM.from_pretrained("WeOpenML/PandaLM-7B-v1")
 
 
 We offer several choices for experiencing our PandaLM. (Preparing codes..Please be patient.)
-1. Try PandaLM on your local machine (with a GPU having at least 24G VRAM) using a Web UI: {}
+1. Try PandaLM on your local machine (with a GPU having at least 24G VRAM) using a Web UI:
+```shell
+cd PandaLM/pandalm/ 
+CUDA_VISIBLE_DEVICES=0 python3 run-gradio.py --base_model=WeOpenML/PandaLM-7B-v1 --server_port=<your-server-port> --server_name=<your-server-name>
+```
+By default the program will listen to port 31228 on all network interfaces, access http://localhost:31228/ if you are running on a local machine or http://\<your-server-name\>:\<your-server-port\>/ if on a remote server.
+<div align="center">
+  <a href=" ">
+    <img src="figures/pandalm-webui.png" alt="webui" width="800">
+  </a>
+</div>
+
 2. Run PandaLM on batch data in a command-line script: {}
 3. Train a new PandaLM in a command-line script: {}
 
