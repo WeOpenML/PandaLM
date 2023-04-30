@@ -2,7 +2,7 @@ import torch
 import transformers
 
 # import global variables
-from llm.core.global_var import IGNORE_INDEX, DEFAULT_PAD_TOKEN, DEFAULT_EOS_TOKEN, DEFAULT_BOS_TOKEN, DEFAULT_UNK_TOKEN, PROMPT_DICT, RAW_DATA_PROMPT_DICT 
+from core.global_var import IGNORE_INDEX, DEFAULT_PAD_TOKEN, DEFAULT_EOS_TOKEN, DEFAULT_BOS_TOKEN, DEFAULT_UNK_TOKEN, PROMPT_DICT, RAW_DATA_PROMPT_DICT 
 from dataclasses import dataclass, field
 from typing import Dict, Sequence
 import logging

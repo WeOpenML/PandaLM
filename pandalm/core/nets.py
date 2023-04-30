@@ -4,7 +4,7 @@ from peft import TaskType, LoraConfig, get_peft_model, prepare_model_for_int8_tr
 import logging
 
 # import global variables
-from llm.core.global_var import IGNORE_INDEX, DEFAULT_PAD_TOKEN, DEFAULT_EOS_TOKEN, DEFAULT_BOS_TOKEN, DEFAULT_UNK_TOKEN, PROMPT_DICT 
+from core.global_var import IGNORE_INDEX, DEFAULT_PAD_TOKEN, DEFAULT_EOS_TOKEN, DEFAULT_BOS_TOKEN, DEFAULT_UNK_TOKEN, PROMPT_DICT 
 
 
 class Nets:

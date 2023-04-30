@@ -18,6 +18,7 @@ class PeftArguments:
 @dataclass
 class DataArguments:
     data_path: str = field(default=None, metadata={"help": "Path to the training data."})
+    use_raw_data: bool = field(default=False, metadata={"help": "Add prompt or not."})
 
 @dataclass
 class TrainingArguments(transformers.TrainingArguments):
@@ -37,10 +38,10 @@ def train():
     nets = Nets(model_args, training_args, peft_args)
     model = nets.get_model()
     tokenizer = nets.get_tokenizer()
-    
- 
+
+
     #prepare datasets for training and validation
-    train_dataset = Datasets(tokenizer=tokenizer, data_path=data_args.data_path)
+    train_dataset = Datasets(tokenizer=tokenizer, data_path=data_args.data_path, use_raw_data=data_args.use_raw_data)
     data_collator = DataCollatorForDataset(tokenizer=tokenizer)
      
     # prepare trainer and train model

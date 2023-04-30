@@ -118,6 +118,11 @@ We calculate the IAA of each annotator using Cohen’s kappa. The IAA is shown b
 | Annotator #2 | 0.85         | 1            | 0.86         |
 | Annotator #3 | 0.88         | 0.86         | 1            |
 
+The label distribution of test data is:
+|              | 0            |1             |2             |
+| ------------ | ------------ | ------------ | ------------ |
+| Number       | 105          | 422          | 472          |
+
 ## ChatGPT VS PandaLM
 
 We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM in terms of accuracy on our human-labeled dataset, Ownership, Reproducibility, security, etc. ChatGPT is opaque and unreproducible as it does not disclose any changelogs. Besides, users may encounter data leakage issues when using ChatGPT and some organizations have regulations against ChatGPT usage.
