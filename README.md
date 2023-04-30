@@ -2,7 +2,7 @@
 
 
 
-![img](./figures/logo.png)
+<img src="./figures/logo.png" alt="img" style="zoom:33%;" />
 
 ## Overview
 
