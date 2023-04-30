@@ -88,7 +88,7 @@ To instruction a foundation model, follow these steps:
 4. Run the demo scripts: `bash scripts/inst-tune.sh`
 
 ## **Usage**
-How to download PandaLM-7B from huggingface?
+How to download PandaLM-7B from huggingface using Python?
 ```
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
