@@ -1,8 +1,11 @@
 # PandaLM: Reproducible and Automated Language Model Assessment
 
 
-
-<img src="./figures/logo.png" alt="img" style="zoom:33%;" />
+<div align="center">
+  <a href=" ">
+    <img src="figures/logo.png" alt="Logo" width="400">
+  </a>
+</div>
 
 ## Overview
 
@@ -132,7 +135,11 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 | PandaLM-33B | ongoing       |
 | PandaLM-65B | ongoing       |
 
-![img](./figures/main-figure.png)
+<div align="center">
+  <a href=" ">
+    <img src="figures/partial-order.png" alt="Partial Order Graph" width="400">
+  </a>
+</div>
 
 ## **Conrtibuting**
 
