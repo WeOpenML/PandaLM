@@ -109,7 +109,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run-gradio.py --base_model=WeOpenML/PandaLM-7B-v1
 Then you can have fun at http://xxx.xxx.xxx.xxx:31228/ , where xxx.xxx.xxx.xxx is the ip address of your local machine.
 <div align="center">
   <a href=" ">
-    <img src="figures/pandalm-webui.png" alt="webui" width="300">
+    <img src="figures/pandalm-webui.png" alt="webui" width="800">
   </a>
 </div>
 
