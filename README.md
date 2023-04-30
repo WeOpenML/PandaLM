@@ -43,7 +43,7 @@ This repository contains:
 
 ![img](./figures/inst-tune-pipeline.png)
 
-As shown above, an iteration of the instruction tuning of LLMs includes training and evaluation. Each iteration refers to changes in hyper-paramters or fine tuning algorithms. The instruction tuning of LLMs can be done within a few GPU hours even using a consumer-grade GPU, thanks to parameter-efficient-tuning methods. However, the human-based and API-based evaluations can be more expensive and time consuming. Furthermore, they can be inconsistent and unreproducible due to a lack of transparency regarding LLM changelogs and subjectivity in human annotations. Moreover, the use of API-based evaluations can result in potential high costs of remediation after [secret data leakage](https://brb0k052i5.feishu.cn/docx/QXHUdwPSgo4puRxhllccfKPRnLg#J0Eed0uiYo2qG8xySY7cROs0nQe). Formally, the total cost of instruction tuning LLMs is $ N \times (C_{train}+C_{cost}) $, where $C_{train}$ can be significantly smaller than $C_{cost}$ if human-based or API-based evaluations are adopted. 
+As shown above, an iteration of the instruction tuning of LLMs includes training and evaluation. Each iteration refers to changes in hyper-paramters or fine tuning algorithms. The instruction tuning of LLMs can be done within a few GPU hours even using a consumer-grade GPU, thanks to parameter-efficient-tuning methods. However, the human-based and API-based evaluations can be more expensive and time consuming. Furthermore, they can be inconsistent and unreproducible due to a lack of transparency regarding LLM changelogs and subjectivity in human annotations. Moreover, the use of API-based evaluations can result in potential high costs of remediation after [secret data leakage](https://brb0k052i5.feishu.cn/docx/QXHUdwPSgo4puRxhllccfKPRnLg#J0Eed0uiYo2qG8xySY7cROs0nQe). Formally, the total cost of instruction tuning LLMs is $N \times (C_{train}+C_{cost})$, where $C_{train}$ can be significantly smaller than $C_{cost}$ if human-based or API-based evaluations are adopted. 
 
 To address these challenges, we propose an evaluation model named PandaLM, which can ensure reproducibility, safety, and efficiency in evaluation. By automating the evaluation process, our model can achieve efficient and consistent evaluations while maintaining high evaluation ability. 
 
@@ -164,7 +164,7 @@ Yidong Wang<sup>\*1,2</sup>, Zhuohao Yu<sup>\*1</sup>, Zhengran Zeng<sup>1</sup>
 ```Plain
 @misc{PandaLM,
   author = {Wang Yidong and Yu Zhuohao and Zeng Zhengran and Yang Linyi and Heng Qiang and Wang Cunxiang and Chen Hao and Jiang Chaoya and Xie Rui and Wang Jindong and Xie Xing and Ye Wei and Zhang Shikun and Zhang Yue},
-  title = {PandaLM:Boosting LLMs' instruction tuning loop.},
+  title = {PandaLM: Reproducible and Automated Language Model Assessment},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
