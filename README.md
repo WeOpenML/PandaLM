@@ -106,7 +106,7 @@ We offer several choices for experiencing our PandaLM. (Preparing codes..Please 
 cd PandaLM/pandalm/ 
 CUDA_VISIBLE_DEVICES=0 python3 run-gradio.py --base_model=WeOpenML/PandaLM-7B-v1 --server_port=<your-server-port> --server_name=<your-server-name>
 ```
-By default the program will listen to port 31228 on all network interfaces, access http://localhost:31228/ if you are running on a local machine or http://<your-server-name>:<your-server-port>/ if on a remote server.
+By default the program will listen to port 31228 on all network interfaces, access http://localhost:31228/ if you are running on a local machine or http://\<your-server-name\>:\<your-server-port\>/ if on a remote server.
 <div align="center">
   <a href=" ">
     <img src="figures/pandalm-webui.png" alt="webui" width="800">
