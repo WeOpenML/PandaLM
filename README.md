@@ -245,4 +245,8 @@ We welcome contributions to PandaLM! If you'd like to contribute, please follow 
 
 ## **License**
 
-PandaLM is released under the Apache License. See the LICENSE file for more information.
+For model weights of PandaLM, we follow LLaMA license. See MODEL_LICENSE.
+
+The train data license will be added when we uploaded train data.
+
+The rest of this repo is under Apache License 2.0. See LICENSE.
