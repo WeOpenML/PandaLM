@@ -166,7 +166,7 @@ The test data is generated and sampled from the human evaluation data of [self-i
 
 We calculate the IAA of each annotator using Cohen’s kappa. The IAA is shown below:
 
-|              | Annotator #1 | Annotator #2 | Annotator #3 |
+| Cohen’s kappa| Annotator #1 | Annotator #2 | Annotator #3 |
 | ------------ | ------------ | ------------ | ------------ |
 | Annotator #1 | 1            | 0.85         | 0.88         |
 | Annotator #2 | 0.85         | 1            | 0.86         |
