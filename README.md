@@ -33,7 +33,7 @@
 ## Overview
 This is the official repository for PandaLM: Re**P**roducible **and** **A**utomated **L**anguage **M**odel Assessment.
 
-PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **On our test dataset, PandaLM-7B has achieved 94% ChatGPT's evaluation ability interms of accuracy**. **The papers and more features are coming soon.**
+PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **On our test dataset, PandaLM-7B has achieved 94% ChatGPT's evaluation ability in terms of accuracy**. **The papers and more features are coming soon.**
 
 ![img](./figures/main-figure.png)
 
@@ -79,13 +79,12 @@ To install PandaLM, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/WeOpenML/PandaLM.git`
 2. Navigate to the project directory: `cd PandaLM`
-3. Install the required dependencies: `pip install -r requirements.txt`
+3. Install the required dependencies: `pip install -r requirements.txt` or use `conda env create -f conda-env.yml` if you prefer conda. Note that it's required to modify `prefix` in `conda-env.yml` to your conda path.
 
 To instruction a foundation model, follow these steps:
-1. Clone the repository: `git clone https://github.com/WeOpenML/PandaLM.git`
+1. Install PandaLM.
 2. Navigate to the project directory: `cd PandaLM/pandalm`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the demo scripts: `bash scripts/inst-tune.sh`
+3. Run the demo scripts: `bash scripts/inst-tune.sh`
 
 ## **Usage**
 
@@ -113,8 +112,8 @@ By default the program will listen to port 31228 on all network interfaces, acce
   </a>
 </div>
 
-2. Run PandaLM on batch data in a command-line script: {}
-3. Train a new PandaLM in a command-line script: {}
+2. Run PandaLM on batch data in a command-line script: {The code and scripts are under review, coming soon.}
+3. Train a new PandaLM in a command-line script: {The code and scripts are under review, coming soon.}
 
 ## **Data**
 
@@ -193,7 +192,7 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 
 ## **Instruction tuned foundation model comparisons**
 
-We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a direct edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
+We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a directed edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
 
 | Human-annotated   | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
 |-------------------|----------|----------------|-------------------|----------------|----------------|
@@ -246,4 +245,8 @@ We welcome contributions to PandaLM! If you'd like to contribute, please follow 
 
 ## **License**
 
-PandaLM is released under the Apache License. See the LICENSE file for more information.
+For model weights of PandaLM, we follow LLaMA license. See MODEL_LICENSE.
+
+The train data license will be added when we uploaded train data.
+
+The rest of this repo is under Apache License 2.0. See LICENSE.
