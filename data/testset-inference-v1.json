@@ -1,0 +1,852 @@
+[
+    {
+        "motivation_app": "Google Meet",
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug"
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup"
+    },
+    {
+        "motivation_app": "Wolfram alpha",
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\""
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black"
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design"
+    },
+    {
+        "motivation_app": "Google Search",
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french"
+    },
+    {
+        "motivation_app": "Jira",
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail"
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies"
+    },
+    {
+        "motivation_app": "YouTube",
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism."
+    },
+    {
+        "motivation_app": "(Wolfram alpha)?",
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50"
+    },
+    {
+        "motivation_app": "Weather",
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change"
+    },
+    {
+        "motivation_app": "Socratic by Google",
+        "instruction": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+        "input": "What does the green light symbolize at the end of the book?"
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.",
+        "input": "The Shining"
+    },
+    {
+        "motivation_app": "Google Docs",
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA"
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer"
+    },
+    {
+        "motivation_app": "Sudoku",
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1| |5| | | | |8| |\n| | | | | |3| |6|4|\n|8|3|4|6|7| |9| | |\n|2|9|1| | |8|3|7|6|\n| | |6| | |9|8|1| |\n| | | | | |2| | | |\n| |2| | |9|7|6| | |\n|5|4| | | | | |9|8|\n|6|1| | | |5|4|3|7|"
+    },
+    {
+        "motivation_app": "tripadvisor.com",
+        "instruction": "Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.",
+        "input": "I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles."
+    },
+    {
+        "motivation_app": "Indeed",
+        "instruction": "You will be required to write a few questions from the given company's interview section.",
+        "input": "Kohl's"
+    },
+    {
+        "motivation_app": "Doulingo",
+        "instruction": "What sound does this make?",
+        "input": "\u597d"
+    },
+    {
+        "motivation_app": "Blogger",
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual."
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun"
+    },
+    {
+        "motivation_app": "Reddit",
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?"
+    },
+    {
+        "motivation_app": "Meetup",
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": ""
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting"
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": ""
+    },
+    {
+        "motivation_app": "tripadvisor.com",
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November"
+    },
+    {
+        "motivation_app": "https://cohere.ai/",
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great."
+    },
+    {
+        "motivation_app": "MS Powerpoint",
+        "instruction": "Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you\u2019ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover\u2019s got humor\nShe\u2019s the giggle at a funeral\nKnows everybody\u2019s disapproval\nI should\u2019ve worshipped her sooner"
+    },
+    {
+        "motivation_app": "Redfin",
+        "instruction": "List some of the top real estate marketing words to add value to the listing and engage more potential buyers.",
+        "input": ""
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Invent a new word based on a description of the word.",
+        "input": "The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever."
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter"
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Jira",
+        "instruction": "Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.",
+        "input": ""
+    },
+    {
+        "motivation_app": "instructables",
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest."
+    },
+    {
+        "motivation_app": "LinkedIn",
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "Curate a Spotify playlist based on the vibe. Publish this playlist as a song list.",
+        "input": "Vibe: coding on weekend"
+    },
+    {
+        "motivation_app": "Redfin",
+        "instruction": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.",
+        "input": "WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner."
+    },
+    {
+        "motivation_app": "Indeed",
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful"
+    },
+    {
+        "motivation_app": "Wolfram alpha",
+        "instruction": "Provide a formula for computing the nth term in the given sequence",
+        "input": "5, 14, 23, 32, 41, ..."
+    },
+    {
+        "motivation_app": "Quora",
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That\u2019s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn\u2019t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly."
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black"
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore."
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique"
+    },
+    {
+        "motivation_app": "National Geographic",
+        "instruction": "You can easily make your holidays more eco-friendly by following these simple steps:",
+        "input": ""
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team."
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "Decide if the given email belongs to the Promotions or Social category.",
+        "input": "Subject: You have an invitation\nEmail: Hi, I'd like to join your LinkedIn network."
+    },
+    {
+        "motivation_app": "Twitter",
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot."
+    },
+    {
+        "motivation_app": "Weather",
+        "instruction": "Please provide us with a list of the best conservation starter questions related to the weather.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Blogger",
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything ."
+    },
+    {
+        "motivation_app": "Twitter",
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Write a review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive"
+    },
+    {
+        "motivation_app": "ludwig.guru",
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected"
+    },
+    {
+        "motivation_app": "Play Store",
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words \u201cf**k\u201d and \u201csh*t\u201d are heard in the game."
+    },
+    {
+        "motivation_app": "tripadvisor.com",
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Yelp",
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets."
+    },
+    {
+        "motivation_app": "Goodreads",
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning"
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game"
+    },
+    {
+        "motivation_app": "Yelp",
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases."
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life."
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!"
+    },
+    {
+        "motivation_app": "Indeed",
+        "instruction": "Provide a list of the skills that may help you find the job.",
+        "input": "Crew Members"
+    },
+    {
+        "motivation_app": "ESPN",
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols"
+    },
+    {
+        "motivation_app": "Wikipedia",
+        "instruction": "An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic.",
+        "input": "The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances.\n20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music."
+    },
+    {
+        "motivation_app": "Doulingo",
+        "instruction": "Answer the following question.",
+        "input": "How do you say \"good evening\" in French."
+    },
+    {
+        "motivation_app": "Indeed",
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States"
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday."
+    },
+    {
+        "motivation_app": "Instagram",
+        "instruction": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+        "input": "I am sharing images of the first snow of the year taken from a window in an office"
+    },
+    {
+        "motivation_app": "ludwig.guru",
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know"
+    },
+    {
+        "motivation_app": "YouTube",
+        "instruction": "Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube.",
+        "input": "In spite of the fact that procrastination feels bad to you, why do you do it?"
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good"
+    },
+    {
+        "motivation_app": "Jira",
+        "instruction": "Write a Jira ticket for the given task.",
+        "input": "New Employee onboarding"
+    },
+    {
+        "motivation_app": "Sudoku",
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": ""
+    },
+    {
+        "motivation_app": "MS Excel",
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ? \nFunction: column2 * column 3"
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "Give examples of popular shows and movies in the genre.",
+        "input": "Genre: Crime TV Shows"
+    },
+    {
+        "motivation_app": "Spotify",
+        "instruction": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works.",
+        "input": ""
+    },
+    {
+        "motivation_app": "tripadvisor.com",
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": ""
+    },
+    {
+        "motivation_app": "https://cohere.ai/",
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement."
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)"
+    },
+    {
+        "motivation_app": "instructables",
+        "instruction": "Make a list of the materials that will be required to build the given tool.",
+        "input": "Coffee Darkness Meter"
+    },
+    {
+        "motivation_app": "Doulingo",
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est \u00e0 la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarch\u00e9?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?"
+    },
+    {
+        "motivation_app": "Instagram",
+        "instruction": "Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it.",
+        "input": "Product: Golang course\nProduct description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development\nDiscount: 50%\nHow to claim: Use the coupon code: GOLANG"
+    },
+    {
+        "motivation_app": "tripadvisor.com",
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain"
+    },
+    {
+        "motivation_app": "Reddit",
+        "instruction": "Provide a pleasant compliment based on the quality you have been given.",
+        "input": "Truthfulness"
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night."
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": ""
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)"
+    },
+    {
+        "motivation_app": "LinkedIn",
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?"
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas"
+    },
+    {
+        "motivation_app": "Instagram",
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now"
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite."
+    },
+    {
+        "motivation_app": "LinkedIn",
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": ""
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science"
+    },
+    {
+        "motivation_app": "YouTube",
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools"
+    },
+    {
+        "motivation_app": "Google Search",
+        "instruction": "Come up with some search queries on google about coding stuff.",
+        "input": ""
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008\u20132013)"
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+        "input": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know."
+    },
+    {
+        "motivation_app": "CNN News",
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams \u2013 the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales \u2013 will participate in a season-long \u201cOneLove\u201d campaign promoting inclusion and opposing discrimination."
+    },
+    {
+        "motivation_app": "yelp",
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait."
+    },
+    {
+        "motivation_app": "Quora",
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory"
+    },
+    {
+        "motivation_app": "YouTube",
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee"
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society"
+    },
+    {
+        "motivation_app": "https://cohere.ai/",
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?"
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well."
+    },
+    {
+        "motivation_app": "National Geographic",
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": ""
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": ""
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn"
+    },
+    {
+        "motivation_app": "MS Excel",
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers"
+    },
+    {
+        "motivation_app": "Netflix",
+        "instruction": "Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.",
+        "input": ""
+    },
+    {
+        "motivation_app": "MS Excel",
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also, I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": ""
+    },
+    {
+        "motivation_app": "(Wolfram alpha)?",
+        "instruction": "Look for poems that mention the given object or character. The names of the poems and their poets should be written.",
+        "input": "santa claus"
+    },
+    {
+        "motivation_app": "https://abcnotation.com/",
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind"
+    },
+    {
+        "motivation_app": "Yelp",
+        "instruction": "Based on the given keywords, write a review of a restaurant.",
+        "input": "Name: Pizzeria\ngood prices, quiet place, tasty, nice staff"
+    },
+    {
+        "motivation_app": "Wysa",
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "input": ""
+    },
+    {
+        "motivation_app": "https://cohere.ai/",
+        "instruction": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.",
+        "input": "Could you deposit money into my account rather than mailing me a physical cheque?"
+    },
+    {
+        "motivation_app": "Google Search",
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time."
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely"
+    },
+    {
+        "motivation_app": "IMDB",
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date"
+    },
+    {
+        "motivation_app": "CNN News",
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific."
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Quora",
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely"
+    },
+    {
+        "motivation_app": "Goodreads",
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery"
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color"
+    },
+    {
+        "motivation_app": "Indeed",
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer"
+    },
+    {
+        "motivation_app": "Yelp",
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre."
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise"
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Write down antonyms for the given word.",
+        "input": "laureating"
+    },
+    {
+        "motivation_app": "Wikipedia",
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:"
+    },
+    {
+        "motivation_app": "Wolfram alpha",
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 \u2265 0\"\nFact: The square of any real number is non-negative."
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?"
+    },
+    {
+        "motivation_app": "https://cohere.ai/",
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes."
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct"
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why"
+    },
+    {
+        "motivation_app": "Facebook",
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see."
+    },
+    {
+        "motivation_app": "Wikipedia",
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:\u221a2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht D\u00fcrer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting."
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air"
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "You should capitalize the sentence according to the guide.",
+        "input": "Guide: Every other letter alternates between lower case and upper case.\nSentence: A giant spider blocks your path."
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S"
+    },
+    {
+        "motivation_app": "LinkedIn",
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!"
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!"
+    },
+    {
+        "motivation_app": "Wolfram alpha",
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0"
+    },
+    {
+        "motivation_app": "Twitter",
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone"
+    },
+    {
+        "motivation_app": "Twitter",
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween"
+    },
+    {
+        "motivation_app": "merriam-webster.com",
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity"
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": ""
+    },
+    {
+        "motivation_app": "Grammarly",
+        "instruction": "Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.",
+        "input": "We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk."
+    },
+    {
+        "motivation_app": "Redfin",
+        "instruction": "Review the property description and tell us what is good and what is bad about it and list its key takeaways.",
+        "input": "There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways."
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B"
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies"
+    },
+    {
+        "motivation_app": "ESPN",
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011"
+    },
+    {
+        "motivation_app": "sth related to real estate?",
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters"
+    },
+    {
+        "motivation_app": "Reddit",
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\""
+    },
+    {
+        "motivation_app": "Telegram",
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides."
+    },
+    {
+        "motivation_app": "Wikipedia",
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated. Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?"
+    },
+    {
+        "motivation_app": "Blogger",
+        "instruction": "We've already decided on the title and topic for our blog post. I would appreciate it if you wrote an introduction paragraph to attract the readers' attention.",
+        "input": "Blog title: Healthy Apple Muffins\nBlog Topic: recipe and tips for cooking a good apple muffin"
+    },
+    {
+        "motivation_app": "National Geographic",
+        "instruction": "Create a daily itinerary based on the given information.",
+        "input": "Our family is looking for a 9-day Morocco trip that has light to moderate activity levels."
+    },
+    {
+        "motivation_app": "Reddit",
+        "instruction": " ",
+        "input": "Truthfulness"
+    },
+    {
+        "motivation_app": "LinkedIn",
+        "instruction": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+        "input": ""
+    },
+    {
+        "motivation_app": "Gmail",
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second"
+    },
+    {
+        "motivation_app": "Google Docs",
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction"
+    },
+    {
+        "motivation_app": "(Wolfram alpha)?",
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite"
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)"
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari"
+    },
+    {
+        "motivation_app": "Messenger",
+        "instruction": "For answering the chat, think of a funny response you can use.",
+        "input": "+ how are you?"
+    },
+    {
+        "motivation_app": "Google Sheet",
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy"
+    }
+]
