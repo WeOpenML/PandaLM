@@ -86,6 +86,8 @@ To instruction a foundation model, follow these steps:
 2. Navigate to the project directory: `cd PandaLM/pandalm`
 3. Run the demo scripts: `bash scripts/inst-tune.sh`
 
+Due to concerns about copyright issues, we do not provided the instruction tuned model. The instruction tuned model can be easily reproduced in PandaLM/pandalm/scripts/inst-tune.sh.
+
 ## **Usage**
 
 We have uploaded PandaLM-7B to HuggingFace, you can simply initialize the model and tokenizer with:
@@ -164,7 +166,7 @@ The test data is generated and sampled from the human evaluation data of [self-i
 
 We calculate the IAA of each annotator using Cohen’s kappa. The IAA is shown below:
 
-|              | Annotator #1 | Annotator #2 | Annotator #3 |
+| Cohen’s kappa| Annotator #1 | Annotator #2 | Annotator #3 |
 | ------------ | ------------ | ------------ | ------------ |
 | Annotator #1 | 1            | 0.85         | 0.88         |
 | Annotator #2 | 0.85         | 1            | 0.86         |
