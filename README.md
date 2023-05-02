@@ -86,7 +86,7 @@ To instruction a foundation model, follow these steps:
 2. Navigate to the project directory: `cd PandaLM/pandalm`
 3. Run the demo scripts: `bash scripts/inst-tune.sh`
 
-Due to concerns about copyright issues, we do not provided the instruction tuned model. The instruction tuned model can be easily reproduced as [Alpaca 52K data](https://github.com/tatsu-lab/stanford_alpaca#data-release)and our codes are all open sourced.
+Due to concerns about copyright issues, we do not provided the instruction tuned model. The instruction tuned model can be easily reproduced in PandaLM/pandalm/scripts/inst-tune.sh.
 
 ## **Usage**
 
