@@ -114,7 +114,15 @@ By default the program will listen to port 31228 on all network interfaces, acce
   </a>
 </div>
 
-2. Run PandaLM on batch data in a command-line script: {The code and scripts are under review, coming soon.}
+2. We provide a class called `EvaluationPipeline` that can evaluate multiple candidate models using PandaLM. The constructor of this class takes in a list of candidate model paths or output JSON files if some models are not open sourced. Optionally, It also takes in the path of the PandaLM model, an input data path to load the test data, and an output data path to save the test result. **Note that this demo just shows the evaluation of LLMs before instruction tuning. In practice, _we need to instruction tune them first_, and then pass the tuned models into `EvaluationPipeline`.** For more details, see the codes. You can test the candidate models in just three lines:
+
+```python
+from pandalm import EvaluationPipeline
+
+pipeline = EvaluationPipeline(candidate_paths=["huggyllama/llama-7b", "bigscience/bloom-7b1", "facebook/opt-6.7b"], input_data_path="data/pipeline-sanity-check.json")
+
+print(pipeline.evaluate())
+```
 3. Train a new PandaLM in a command-line script: {The code and scripts are under review, coming soon.}
 
 ## **Data**
