@@ -1,0 +1,52 @@
+[
+    {
+        "motivation_app": "Google Meet",
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug"
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup"
+    },
+    {
+        "motivation_app": "Wolfram alpha",
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\""
+    },
+    {
+        "motivation_app": "Amazon",
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black"
+    },
+    {
+        "motivation_app": "Coursera",
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design"
+    },
+    {
+        "motivation_app": "Google Search",
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french"
+    },
+    {
+        "motivation_app": "Jira",
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail"
+    },
+    {
+        "motivation_app": "Tasty",
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies"
+    },
+    {
+        "motivation_app": "YouTube",
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism."
+    },
+    {
+        "motivation_app": "(Wolfram alpha)?",
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50"
+    }
+]
