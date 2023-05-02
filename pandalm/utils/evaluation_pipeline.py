@@ -2,7 +2,7 @@ import torch
 import json
 import logging
 import random
-from typing import Union, Dict, Optional, List
+from typing import Optional, List
 from tqdm import tqdm
 import gc
 
@@ -123,6 +123,12 @@ class EvaluationPipeline:
         del pandalm
         gc.collect()
         torch.cuda.empty_cache()
+        if self.output_data_path:
+            try:
+                with open(self.output_data_path) as f:
+                    json.dump(self.pandalm_results, f)
+            except:
+                logging.error(f'Failed to output at: {self.output_data_path}')
         return self.pandalm_results_parsed
 
     def evaluate(self):
