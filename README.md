@@ -61,7 +61,7 @@ This repository contains:
     - [Test data](#test-data)
   - [ChatGPT VS PandaLM](#chatgpt-vs-pandalm)
   - [Instruction tuned foundation model comparisons](#instruction-tuned-foundation-model-comparisons)
-  - [Contributing](#contributing)
+  - [Conrtibuting](#conrtibuting)
   - [Citation](#citation)
   - [License](#license) 
 
@@ -129,7 +129,7 @@ print(pipeline.evaluate())
 
 This section introduces the train and test data for training and evaluating PandaLM. **We will continuously update and open-source the data to improve PandaLM.**
 
-### **Training data**
+### **Train data**
 
 We aim to force our model not only to evaluate different responses for a given context, but also generate a reference response utilizing the given context. Thus, each instance from the training data consists of an input tuple (instruction, input, response1, response2) and an output tuple (evaluation_result, evaluation_reason, reference_response). Specifically, in the input tuple, the instructions and inputs are sampled from [Alpaca 52K data](https://github.com/tatsu-lab/stanford_alpaca#data-release) and the response pairs are provided by LLaMA-7B, Bloom-7B, Cerebras-GPT-6.7B, OPT-7B and Pythia-6.9 tuned by ourselves with the same instruction data and hyper-parameters. We chose these foundation models as they are similar in size and their model weights are publicly available. The corresponding output tuple includes an evaluation result, a brief explanation for the evaluation and a reference response. Note that "1" or "2" in the evaluation result means response 1 or 2 is better and "Tie" means they are similar in quality. Since it is unaffordable to obtain *millions* of output tuples from human annotators and ChatGPT has the ability to evaluate LLMs to a certain extent, we follow [self-instruct](https://github.com/yizhongw/self-instruct/blob/main/human_eval) to get output tuples from ChatGPT(gpt-3.5-turbo) and then adopt heuristic data filtering strategy to filter noisy ones. The filtered train dataset contains 300K samples while the original unfiltered datasets have 1M samples. *The train data is under data disclosure procedure.* Here is a demonstration of the train data:
 
@@ -202,7 +202,7 @@ We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM 
 
 ## **Instruction tuned foundation model comparisons**
 
-We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicifically, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a directed edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
+We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a directed edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
 
 | Human-annotated   | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
 |-------------------|----------|----------------|-------------------|----------------|----------------|
@@ -231,7 +231,7 @@ We also provide some comparisons among the instruction tuned language models. **
   </a>
 </div>
 
-## **Contributing**
+## **Conrtibuting**
 
 We welcome contributions to PandaLM! If you'd like to contribute, please follow these steps:
 
