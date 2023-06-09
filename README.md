@@ -1,4 +1,4 @@
-# PandaLM: Reproducible and Automated Language Model Assessment
+# PandaLM: ReProducible and Automated Language Model Assessment
 
 <div align="center">
   <a href=" ">
@@ -33,6 +33,8 @@
 ## Overview
 This is the official repository for PandaLM: Re**P**roducible **and** **A**utomated **L**anguage **M**odel Assessment.
 
+Paper: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
+
 PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **On our test dataset, PandaLM-7B has achieved 94% ChatGPT's evaluation ability in terms of accuracy**. **The papers and more features are coming soon.**
 
 ![img](./figures/main-figure.png)
@@ -47,6 +49,7 @@ This repository contains:
 ## News
 
 - [2023/04/30] We are pleased to announce the release of PandaLM 1.0 as an open-source tool for evaluating LLMs with reliability. To further demonstrate the effectiveness of PandaLM, we are also sharing a human-annotated test dataset.
+- [2023/06/08] We release our paper on arxiv: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
 
 ## **Table of Contents**
 
@@ -243,13 +246,11 @@ We welcome contributions to PandaLM! If you'd like to contribute, please follow 
 ## **Citation**
 
 ```Plain
-@misc{PandaLM,
-  author = {Wang Yidong and Yu Zhuohao and Zeng Zhengran and Yang Linyi and Heng Qiang and Wang Cunxiang and Chen Hao and Jiang Chaoya and Xie Rui and Wang Jindong and Xie Xing and Ye Wei and Zhang Shikun and Zhang Yue},
-  title = {PandaLM: Reproducible and Automated Language Model Assessment},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/WeOpenML/PandaLM}},
+@misc{pandalm2023,
+      title={PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization}, 
+      author={Wang, Yidong and Yu, Zhuohao and Zeng, Zhengran and Yang, Linyi and Wang, Cunxiang and Chen, Hao and Jiang, Chaoya and Xie, Rui and Wang, Jindong and Xie, Xing and Ye, Wei and Zhang, Shikun and Zhang, Yue},
+      year={2023},
+      journal={arXiv preprint arXiv:2306.05087}
 }
 ```
 
