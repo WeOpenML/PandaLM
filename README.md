@@ -252,6 +252,15 @@ We welcome contributions to PandaLM! If you'd like to contribute, please follow 
       year={2023},
       journal={arXiv preprint arXiv:2306.05087}
 }
+
+@misc{PandaLM,
+  author = {Wang, Yidong and Yu, Zhuohao and Zeng, Zhengran and Yang, Linyi and Heng, Qiang and Wang, Cunxiang and Chen, Hao and Jiang, Chaoya and Xie, Rui and Wang, Jindong and Xie, Xing and Ye, Wei and Zhang, Shikun and Zhang, Yue},
+  title = {PandaLM: Reproducible and Automated Language Model Assessment},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/WeOpenML/PandaLM}},
+}
 ```
 
 ## **License**
