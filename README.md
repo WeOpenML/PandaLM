@@ -93,7 +93,7 @@ Due to concerns about copyright issues, we do not provided the instruction tuned
 
 ## **Usage**
 
-We have uploaded PandaLM-7B to HuggingFace, you can simply initialize the model and tokenizer with:
+We have uploaded PandaLM-7B to Hugging Face, you can simply initialize the model and tokenizer with:
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
