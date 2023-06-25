@@ -35,7 +35,7 @@ This is the official repository for PandaLM: Re**P**roducible **and** **A**utoma
 
 Paper: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
 
-PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **On our test dataset, PandaLM-7B has achieved 94% ChatGPT's evaluation ability in terms of accuracy**. **The papers and more features are coming soon.**
+PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs). By giving PandaLM the same context, it can compare the responses of different LLMs and provide a reason for the decision, along with a reference answer. The target audience for PandaLM may be organizations that have confidential data and research labs with limited funds that seek reproducibility. These organizations may not want to disclose their data to third parties or may not be able to afford the high costs of secret data leakage using third-party APIs or hiring human annotators. With PandaLM, they can perform evaluations without compromising data security or incurring high costs, and obtain reproducible results. To demonstrate the reliability and consistency of our tool, we have created a diverse human-annotated test dataset of approximately 1,000 samples, where the contexts and the labels are all created by humans. **Our results indicate that PandaLM-7B achieves 93.75% of GPT-3.5's evaluation ability and 88.28% of GPT-4's in terms of F1-score on our test dataset.**. **More papers and features are coming soon.**
 
 ![img](./figures/main-figure.png)
 
@@ -60,10 +60,9 @@ This repository contains:
   - [Installation](#installation)
   - [Usage](#usage)
   - [Data](#data)
-    - [Training data](#training-data)
+    - [Train data](#train-data)
     - [Test data](#test-data)
-  - [ChatGPT VS PandaLM](#chatgpt-vs-pandalm)
-  - [Instruction tuned foundation model comparisons](#instruction-tuned-foundation-model-comparisons)
+  - [Experimental Results](#experimental-results)
   - [Conrtibuting](#conrtibuting)
   - [Citation](#citation)
   - [License](#license) 
@@ -126,7 +125,7 @@ pipeline = EvaluationPipeline(candidate_paths=["huggyllama/llama-7b", "bigscienc
 
 print(pipeline.evaluate())
 ```
-3. Train a new PandaLM in a command-line script: {The code and scripts are under review, coming soon.}
+
 
 ## **Data**
 
@@ -134,7 +133,7 @@ This section introduces the train and test data for training and evaluating Pand
 
 ### **Train data**
 
-We aim to force our model not only to evaluate different responses for a given context, but also generate a reference response utilizing the given context. Thus, each instance from the training data consists of an input tuple (instruction, input, response1, response2) and an output tuple (evaluation_result, evaluation_reason, reference_response). Specifically, in the input tuple, the instructions and inputs are sampled from [Alpaca 52K data](https://github.com/tatsu-lab/stanford_alpaca#data-release) and the response pairs are provided by LLaMA-7B, Bloom-7B, Cerebras-GPT-6.7B, OPT-7B and Pythia-6.9 tuned by ourselves with the same instruction data and hyper-parameters. We chose these foundation models as they are similar in size and their model weights are publicly available. The corresponding output tuple includes an evaluation result, a brief explanation for the evaluation and a reference response. Note that "1" or "2" in the evaluation result means response 1 or 2 is better and "Tie" means they are similar in quality. Since it is unaffordable to obtain *millions* of output tuples from human annotators and ChatGPT has the ability to evaluate LLMs to a certain extent, we follow [self-instruct](https://github.com/yizhongw/self-instruct/blob/main/human_eval) to get output tuples from ChatGPT(gpt-3.5-turbo) and then adopt heuristic data filtering strategy to filter noisy ones. The filtered train dataset contains 300K samples while the original unfiltered datasets have 1M samples. *The train data is under data disclosure procedure.* Here is a demonstration of the train data:
+We aim to force our model not only to evaluate different responses for a given context, but also generate a reference response utilizing the given context. Thus, each instance from the training data consists of an input tuple (instruction, input, response1, response2) and an output tuple (evaluation_result, evaluation_reason, reference_response). Specifically, in the input tuple, the instructions and inputs are sampled from [Alpaca 52K data](https://github.com/tatsu-lab/stanford_alpaca#data-release) and the response pairs are provided by LLaMA-7B, Bloom-7B, Cerebras-GPT-6.7B, OPT-7B and Pythia-6.9 tuned by ourselves with the same instruction data and hyper-parameters. We chose these foundation models as they are similar in size and their model weights are publicly available. The corresponding output tuple includes an evaluation result, a brief explanation for the evaluation and a reference response. Note that "1" or "2" in the evaluation result means response 1 or 2 is better and "Tie" means they are similar in quality. Since it is unaffordable to obtain *millions* of output tuples from human annotators and ChatGPT has the ability to evaluate LLMs to a certain extent, we follow [self-instruct](https://github.com/yizhongw/self-instruct/blob/main/human_eval) to get output tuples from ChatGPT(gpt-3.5-turbo) and then adopt heuristic data filtering strategy to filter noisy ones. The filtered train dataset contains 300K samples while the original unfiltered datasets have 1M samples. **The train data can be found at [train-data](https://1drv.ms/u/s!At10qerm7TcdhSuhRwrv93eaycnG?e=lCFFaJ).** Here is a demonstration of the train data:
 
 ```Plain
 {
@@ -188,51 +187,8 @@ The label distribution of test data is:
 | ------------ | ------------ | ------------ | ------------ |
 | Number       | 105          | 422          | 472          |
 
-## **ChatGPT VS PandaLM**
-
-We compared the evaluation capabilities of ChatGPT(`gpt-3.5-turbo`) and PandaLM in terms of accuracy on our human-labeled dataset, Ownership, Reproducibility, security, etc. ChatGPT is opaque and unreproducible as it does not disclose any changelogs. Besides, users may encounter data leakage issues when using ChatGPT and some organizations have regulations against ChatGPT usage.
-
-|         | Open Source | Reproducibility | Security | Access    |
-| ------- | ----------- | --------------- | -------- | --------- |
-| ChatGPT | ❌           | ❌               | ❌        | Limited   |
-| PandaLM | ✅           | ✅               | ✅        | Unlimited |
-
-|               | Accuracy | Precision | Recall    | F1-score  |
-|---------------|----------|-----------|-----------|-----------|
-| gpt-3.5-turbo | 71.07    | 58.79     | 57.36     | 57.55     |
-| PandaLM-7B    | 66.77    | 57.38     | 57.50     | 57.43     |
-| PandaLM-13B   | -        | -         | -         | -         |
-
-## **Instruction tuned foundation model comparisons**
-
-We also provide some comparisons among the instruction tuned language models. **The tuple in the table means (#win,#lose,#tie).** Speicificaly, (72,28,11) in the first line of the first table means the 72 responses of LLaMA-7B are better than those of Bloom-7B, 28 responses of LLaMA-7B are worse than those of Bloom-7B, and 11 responses of LLaMA-7B are similar in quality with those of Bloom-7B. **The three results share the same partial order graph as shown below.** If model A is better than model B, then we connect a directed edge from A to B on the directed graph. The partial order graph graph is a directed acyclic graph(DAG).
-
-| Human-annotated   | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
-|-------------------|----------|----------------|-------------------|----------------|----------------|
-| LLaMA-7B          |          | **(72,28,11)** | **(80,24,6)**     | **(71,24,11)** | **(58,27,9)**  |
-| Bloom-7B          |          |                | **(59,30,11)**    | **(43,35,11)** | **(49,47,11)** |
-| Cerebras-GPT-6.7B |          |                |                   | _(33,49,9)_    | _(27,53,11)_   |
-| OPT-7B            |          |                |                   |                | _(32,53,15)_   |
-
-| gpt-3.5-turbo     | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
-|-------------------|----------|----------------|-------------------|----------------|----------------|
-| LLaMA-7B          |          | **(69,32,10)** | **(80,24,6)**     | **(70,29,7)**  | **(60,28,6)**  |
-| Bloom-7B          |          |                | **(67,29,4)**     | **(46,38,5)**  | **(52,48,7)**  |
-| Cerebras-GPT-6.7B |          |                |                   | _(38,45,8)_    | _(28,57,6)_    |
-| OPT-7B            |          |                |                   |                | _(43,53,4)_    |
-
-| PandaLM-7B        | LLaMA-7B | Bloom-7B       | Cerebras-GPT-6.7B | OPT-7B         | Pythia-6.9B    |
-|-------------------|----------|----------------|-------------------|----------------|----------------|
-| LLaMA-7B          |          | **(57,37,17)** | **(75,26,9)**     | **(60,33,13)** | **(46,41,7)**  |
-| Bloom-7B          |          |                | **(57,31,12)**    | **(46,36,7)**  | **(51,41,15)** |
-| Cerebras-GPT-6.7B |          |                |                   | _(37,45,9)_    | _(33,52,6)_    |
-| OPT-7B            |          |                |                   |                | _(40,48,12)_   |
-
-<div align="center">
-  <a href=" ">
-    <img src="figures/partial-order.png" alt="Partial Order Graph" width="300">
-  </a>
-</div>
+## **Experimental Results**
+Please refer to Paper: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
 
 ## **Conrtibuting**
 
