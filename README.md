@@ -46,8 +46,8 @@ This repository contains:
 - The model weights of PandaLM
 - The codes and configs for instruction tuning other foundation models such as Bloom, OPT and LLaMA, etc.
 
-## News
-
+## News 
+- [2023/07/25] We share our tuned Alpaca and PandaLM-Alpaca at [Huggingface](https://huggingface.co/WeOpenML). Besides, we uploaded our tuned Alpaca and PandaLM-Alpaca to [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), the results prove that using PandaLM can boost the instruction tuning performance. 
 - [2023/04/30] We are pleased to announce the release of PandaLM 1.0 as an open-source tool for evaluating LLMs with reliability. To further demonstrate the effectiveness of PandaLM, we are also sharing a human-annotated test dataset.
 - [2023/06/08] We release our paper on arxiv: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
 
