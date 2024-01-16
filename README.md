@@ -47,6 +47,7 @@ This repository contains:
 - The codes and configs for instruction tuning other foundation models such as Bloom, OPT and LLaMA, etc.
 
 ## News 
+- [2024/01/16] Pandalm is accepted by ICLR 2024!
 - [2023/07/25] We share our tuned Alpaca and PandaLM-Alpaca at [Huggingface](https://huggingface.co/WeOpenML). Besides, we uploaded our tuned Alpaca and PandaLM-Alpaca to [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), the results prove that using PandaLM can boost the instruction tuning performance. 
 - [2023/04/30] We are pleased to announce the release of PandaLM 1.0 as an open-source tool for evaluating LLMs with reliability. To further demonstrate the effectiveness of PandaLM, we are also sharing a human-annotated test dataset.
 - [2023/06/08] We release our paper on arxiv: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087)
@@ -202,11 +203,11 @@ We welcome contributions to PandaLM! If you'd like to contribute, please follow 
 ## **Citation**
 
 ```Plain
-@misc{pandalm2023,
+@article{pandalm2024,
       title={PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization}, 
       author={Wang, Yidong and Yu, Zhuohao and Zeng, Zhengran and Yang, Linyi and Wang, Cunxiang and Chen, Hao and Jiang, Chaoya and Xie, Rui and Wang, Jindong and Xie, Xing and Ye, Wei and Zhang, Shikun and Zhang, Yue},
-      year={2023},
-      journal={arXiv preprint arXiv:2306.05087}
+      booktitle={International Conference on Learning Representations (ICLR)},
+      year={2024}
 }
 
 @misc{PandaLM,
