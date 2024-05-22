@@ -170,9 +170,9 @@ The test data is generated and sampled from the human evaluation data of [self-i
   "reference_response": "Arts & Culture", ## Directly copy from the self instruct repo.
   "response1": "Politics",
   "response2": "Arts & Culture",
-  "label_0": "2", # Label from Human annotator No.1
-  "label_1": "2", # Label from Human annotator No.2
-  "label_2": "2", # Label from Human annotator No.3
+  "annotator1": "2", # Label from Human annotator No.1
+  "annotator2": "2", # Label from Human annotator No.2
+  "annotator3": "2", # Label from Human annotator No.3
 }
 ```
 
